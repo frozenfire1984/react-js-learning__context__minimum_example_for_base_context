@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root {
+  display: contents;
+}
+
+.global {
+  flex: 1;
+  display: inherit;
+  flex-direction: inherit;
+}
+
+.app {
+  flex: 1;
+}
+.app div {
+  border: 1px gray solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
